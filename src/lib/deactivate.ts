@@ -13,7 +13,7 @@ async function deactivateEnvironment(
     owner,
     repo,
     environment,
-    per_page: 100,
+    per_page: 10,
   });
   const existing = deployments.data.length;
   if (existing === 0) {
